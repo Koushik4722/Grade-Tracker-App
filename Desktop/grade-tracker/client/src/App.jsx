@@ -1,10 +1,10 @@
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
-import { AuthProvider } from "./context/Authcontext";
-import ProtectedRoute from "./components/ProtectedRoute";
-import LoginPage from "./pages/LoginPage";
-import RegisterPage from "./pages/RegisterPage";
-import Dashboard from "./pages/Dashboard";
-import GradeForm from "./pages/GradeForm";
+import { AuthProvider } from "./context/Authcontext.jsx";
+import ProtectedRoute from "./components/ProtectedRoute.jsx";
+import LoginPage from "./pages/LoginPage.jsx";
+import RegisterPage from "./pages/RegisterPage.jsx";
+import Dashboard from "./pages/Dashboard.jsx";
+import GradeForm from "./pages/GradeForm.jsx";
 
 function App() {
   return (
